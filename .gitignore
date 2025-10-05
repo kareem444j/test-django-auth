@@ -1,0 +1,58 @@
+# ملفات بايثون المؤقتة
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ملفات بيئة التطوير
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# إعدادات IDEs والمحررات
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ملفات قاعدة البيانات المحلية
+db.sqlite3
+
+# ملفات static و media التي يتم توليدها
+/staticfiles/
+media/
+
+# ملفات Django المترجمة
+*.mo
+*.pot
+
+# ملفات جمع static
+/static/
+
+# ملفات السجلات
+*.log
+
+# ملفات الكاش
+*.cache
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ملفات التغطية والاختبارات
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+nosetests.xml
+*.spec
+
+# ملفات build أو dist (إذا استخدمت setuptools)
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
